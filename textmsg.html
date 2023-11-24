@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styling Example</title>
+    <script>
+        function changeStyles() {
+            var textMessage = document.getElementById("myText");
+            textMessage.style.backgroundColor = "green";
+            textMessage.style.color = "yellow";
+            textMessage.style.fontSize = "12px";
+            textMessage.style.fontWeight = "bold";
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Text Styling</h1>
+
+    <div id="myText" style="background-color: red; color: blue; font-size: 10px; font-family: 'Times New Roman';">
+       hello good morning.
+    </div>
+
+    <button onclick="changeStyles()">Change Styles</button>
+
+</body>
+</html>
