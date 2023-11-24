@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/Hide Image</title>
+    <script>
+        function showImage() {
+            var image = document.getElementById("myImage");
+            image.style.display = "block";
+        }
+        function hideImage() {
+            var image = document.getElementById("myImage");
+            image.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <h1>Show/Hide Image</h1>
+    <button onclick="showImage()">Show Image</button>
+    <button onclick="hideImage()">Hide Image</button>
+    <img id="myImage" src="image.jpg" alt="An example image" style="display: none; width: 300px; height: auto; margin-top: 20px;">
+</body>
+</html>
